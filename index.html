@@ -1,11 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Projeto p.i</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esporte News</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    
+  <header class="header">
+    <div class="menu-btn" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="logo">
+      <img src="img/3e7c27a6-3221-40b0-8f15-08c846abc5d6.png" alt="Logo Esporte News">
+    </div>
+
+    <nav class="menu">
+      <ul>
+        <li><a href="#">Times</a></li>
+        <li><a href="#">Futebol</a></li>
+        <li><a href="#">Esportes</a></li>
+      </ul>
+    </nav>
+
+    <div class="search-icon" onclick="toggleSearch()">
+      🔍
+    </div>
+
+    <div class="search-bar">
+      <input type="text" placeholder="Digite sua busca...">
+    </div>
+  </header>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
